@@ -4,6 +4,7 @@ local api, fn, bo = vim.api, vim.fn, vim.bo
 local get_opt = api.nvim_get_option_value
 
 local icons = tools.ui.icons
+vim.cmd.packadd("mini.icons")
 local mini_icons = require("mini.icons")
 
 local HL = {
