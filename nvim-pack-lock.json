@@ -81,6 +81,10 @@
       "rev": "cc285167914e947fc130523d02927fdaf24636a6",
       "src": "https://github.com/rachartier/tiny-glimmer.nvim"
     },
+    "toggleterm.nvim": {
+      "rev": "9a88eae817ef395952e08650b3283726786fb5fb",
+      "src": "https://github.com/akinsho/toggleterm.nvim"
+    },
     "typescript-tools.nvim": {
       "rev": "c2f5910074103705661e9651aa841e0d7eea9932",
       "src": "https://github.com/pmizio/typescript-tools.nvim"
