@@ -9,29 +9,29 @@ o.confirm = true
 o.cursorline = true
 opt.cursorlineopt = { "number" }
 opt.diffopt = {
-  "filler",
-  "indent-heuristic",
-  "linematch:60",
-  "vertical",
+	"filler",
+	"indent-heuristic",
+	"linematch:60",
+	"vertical",
 }
 o.emoji = true
 o.expandtab = true
 o.fileignorecase = true
 opt.fillchars = {
-  eob = " ",
-  diff = "╱",
-  fold = " ",
-  foldclose = tools.ui.icons.r_chev,
-  foldopen = tools.ui.icons.d_chev,
-  foldsep = " ",
-  msgsep = "━",
-  horiz = "━",
-  horizup = "┻",
-  horizdown = "┳",
-  vert = "┃",
-  vertleft = "┫",
-  vertright = "┣",
-  verthoriz = "╋",
+	eob = " ",
+	diff = "╱",
+	fold = " ",
+	foldclose = tools.ui.icons.r_chev,
+	foldopen = tools.ui.icons.d_chev,
+	foldsep = " ",
+	msgsep = "━",
+	horiz = "━",
+	horizup = "┻",
+	horizdown = "┳",
+	vert = "┃",
+	vertleft = "┫",
+	vertright = "┣",
+	verthoriz = "╋",
 }
 o.foldcolumn = "0"
 o.foldenable = false
@@ -39,11 +39,11 @@ o.foldlevelstart = 99
 o.foldlevel = 99
 o.gdefault = true
 opt.guicursor = {
-  "n-sm:block",
-  "v:hor50",
-  "c-ci-cr-i-ve:ver10",
-  "o-r:hor10",
-  "a:Cursor/Cursor-blinkwait1-blinkon1-blinkoff1",
+	"n-sm:block",
+	"v:hor50",
+	"c-ci-cr-i-ve:ver10",
+	"o-r:hor10",
+	"a:Cursor/Cursor-blinkwait1-blinkon1-blinkoff1",
 }
 o.equalalways = true
 o.hlsearch = true
@@ -52,9 +52,9 @@ o.ignorecase = true
 o.laststatus = 3
 o.list = true
 opt.listchars = {
-  nbsp = "␣",
-  tab = "  ",
-  trail = "·",
+	nbsp = "␣",
+	tab = "  ",
+	trail = "·",
 }
 o.linebreak = true
 o.modeline = false
@@ -92,8 +92,8 @@ o.titlestring = "nvim: %t"
 o.undofile = true
 o.updatetime = 250 -- used for swap file and cursorhold
 opt.viewoptions = {
-  "cursor",
-  "folds",
+	"cursor",
+	"folds",
 }
 o.virtualedit = "all"
 o.wildignore = "*.o"
@@ -101,4 +101,3 @@ o.wildmode = "longest:full"
 o.wildoptions = "pum"
 o.winborder = "none"
 o.writebackup = false
-
