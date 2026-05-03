@@ -9,6 +9,8 @@ require("conform").setup({
     lsp_format = "fallback",
   },
   formatters_by_ft = {
+    sh = { "shfmt" },
+    bash = { "shfmt" },
     html = { "prettier" },
     lua = { "stylua" },
     markdown = { "prettier" },
