@@ -12,6 +12,7 @@ vim.keymap.set("n", "<leader>w", "<cmd>w<cr>", { desc = "Save file" })
 vim.keymap.set("n", "<leader>f", "<cmd>FzfLua files<cr>", { desc = "Find files" })
 vim.keymap.set("n", "<leader>F", "<cmd>FzfLua live_grep<cr>", { desc = "Grep" })
 vim.keymap.set("n", "<leader>df", "<cmd>FzfLua lsp_definitions<cr>", { silent = true, desc = "LSP [d]e[f]initions" })
+-- vim.keymap.set("n", "\\", "<cmd>FzfLua tabs<cr>", { desc = "Select Tab" })
 vim.keymap.set(
 	"n",
 	"<leader>dd",
@@ -33,6 +34,7 @@ vim.keymap.set(
 )
 
 vim.api.nvim_set_keymap("n", "<leader>t", ":ToggleTerm<CR>", { silent = true })
+
 function _G.set_terminal_keymaps()
 	local opts = { buffer = 0 }
 	vim.keymap.set("t", "<esc>", [[<C-\><C-n>]], opts)
